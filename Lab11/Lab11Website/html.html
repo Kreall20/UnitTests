@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <form class="calculator">
+        <div class="calcelements">
+            <div class="screen">  
+            <div>Первое число</div>     
+            <input type="text" class="first-number" value="3">
+            <input type="text" class="operatortext" value="+" disabled>
+            <div id="error">Введите число!</div>
+            <div id="errorzero">На ноль делить нельзя!</div>
+            <div>Второе число</div>
+            <input type="text" class="second-number" value="2">
+            <div>Результат</div>
+            <input type="text" class="result" value="5" disabled>
+            </div>
+        </div>
+        <div class="buttons">
+          <button type="button" class="operator">+</button>
+          <button type="button" class="operator">-</button>
+          <button type="button" class="operator">*</button>
+          <button type="button" class="operator">/</button>
+          <button type="button" class="clear">C</button>
+        </div>
+      </form>
+</body>
+<script src="script.js"></script>
+</html>
